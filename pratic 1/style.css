@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#hello-section{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2em;
+    background-color: #607d8b;
+    /* box-shadow: 5px 5px 20px gray; */
+}
+
+#menu{
+    margin-top: 5px;
+    margin-left: 5px; 
+    padding: 20px;
+    width: 200px;
+    height: 100%;
+    background-color: #607d8b;
+    cursor: pointer;
+
+    
+}
+
+#menu li{
+    font-size: 1.2em;
+    color: #fff;
+    list-style: none;
+    padding: 10px;
+}
+
+#menu li:hover {
+    
+    background-color: #ff7043;
+}
+
+
