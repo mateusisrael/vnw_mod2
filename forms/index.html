@@ -1,46 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Formulario</title>
 </head>
 <body>
     <form onsubmit="somar(event)">
         <input id="input1" type="number" required>
         <input id="input2" type="number" required>
-        <p id="result"></p>
-        <button>Somar</button>
+        <button>=</button>
+        <div id="result-cont"><p id="result"></p></div>
+        
+
     </form>
 
-
-
-
-<script type="text/javascript">
-
-
-function somar(i) {
-    let val1 = document.querySelector('#input1');
-    let val2 = document.querySelector('#input2');
-    let somar = document.querySelector('#somar');
-    i.preventDefault();
-    console.log(parseInt(val1.value) + parseInt(val2.value));
-}
-
-
-
-</script>
-
-
-
-<style>
-/* button{
-    width: 30px;
-    height: 30px;
-} */
-
-
-</style>
+    <script src="./main.js"></script>
 </body>
 </html>
