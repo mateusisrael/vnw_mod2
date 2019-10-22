@@ -1,3 +1,5 @@
+// OBS: Adicionando os elementos(HTML) via js para exercitar a manipulação do DOM.
+
 let body = document.querySelector('body');
 let main = document.createElement('main');
 let form = document.createElement('form');
@@ -26,8 +28,6 @@ function addElements() {
     console.log('foi');
 }
 
-addElements();
-
 function send(event) {
     console.log('SEND');
     form.appendChild(input_valor);
@@ -37,3 +37,5 @@ function send(event) {
     
     event.preventDefault();
 }
+
+addElements();

@@ -52,7 +52,7 @@ form{
 }
 
 input{
-    background: gray;
+    background: var(--shadow);
     border: none;
     height: 30px;
     color: #fff;
@@ -67,7 +67,7 @@ input::placeholder{
 }
 
 input:focus::placeholder{
-    color: gray;
+    color: var(--shadow);
 }
 
 form img{
